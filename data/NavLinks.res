@@ -6,4 +6,5 @@ type navLink = {
 
 let data = [
   {title: "Blog", path: "/blog", link: "/blog"},
+  {title: "Presentation", path: "/slides", link: "/slides"},
 ]
