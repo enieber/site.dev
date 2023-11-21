@@ -18,24 +18,6 @@ let default = () => {
           alt="linkedin"
         />
       </a>
-      <a
-        className={`mx-1.5`}
-        href={Metadata.social["stackoverflow"]}
-        target="_blank"
-        rel="noreferrer">
-        <Next.Image
-          width={18.0}
-          height={18.0}
-          objectFit=#contain
-          src="/social/stackoverflow.svg"
-          alt="stackoverflow"
-        />
-      </a>
-      <a className={`mx-1.5`} href={Metadata.social["twitter"]} target="_blank" rel="noreferrer">
-        <Next.Image
-          width={18.0} height={18.0} objectFit=#contain src="/social/twitter.svg" alt="twitter"
-        />
-      </a>
       <a className={`mx-1.5`} href={Metadata.social["rss"]} target="_blank" rel="noreferrer">
         <Next.Image
           width={18.0} height={18.0} objectFit=#contain src="/social/rss.svg" alt="facebook"
@@ -53,11 +35,11 @@ let default = () => {
       // </a>
     </div>
     <span className={`text-sm text-[var(--tx-sub)] mt-3`}>
-      {`Copyright © 2023 ${Metadata.author}`->React.string}
+      {`Copyleft © 2023 ${Metadata.author}`->React.string}
     </span>
     <Next.Link href={Metadata.repo} passHref={true}>
       <a className={`text-xs text-[var(--tx-sub-dark)] no-underline mt-2.5 hover:underline`}>
-        {`miryang.dev`->React.string}
+        {`Enieber Cunha`->React.string}
       </a>
     </Next.Link>
   </footer>

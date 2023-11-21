@@ -14,8 +14,8 @@ function HomeProfile$default(Props) {
                 }, Metadata.home.description), React.createElement(Link, {
                   children: React.createElement("a", {
                         className: "font-semibold text-[var(--bg-a5)] text-sm mt-3"
-                      }, "Learn more"),
-                  href: "/about",
+                      }, "Sobre mim"),
+                  href: "https://profile-enieber.vercel.app/",
                   passHref: true
                 }));
 }

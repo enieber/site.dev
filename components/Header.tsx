@@ -21,8 +21,8 @@ const Header = () => {
                 height={30}
                 objectFit={'contain'}
                 className="cursor-pointer"
-                alt="밝은 모드로 변경"
-                src="/static/moon.png"
+                alt="logo da lua"
+                src="/static/moon.svg"
               />
             </div>
             <div className="mr-4 dark:hidden">
@@ -31,8 +31,8 @@ const Header = () => {
                 height={30}
                 objectFit={'contain'}
                 className="cursor-pointer"
-                alt="어두운 모드로 변경"
-                src="/static/sun.png"
+                alt="logo do sol"
+                src="/static/sun.svg"
               />
             </div>
           </div>
@@ -44,7 +44,7 @@ const Header = () => {
                 objectFit={'contain'}
                 className={'cursor-pointer rounded-full'}
                 src="/static/logo-dark.jpg"
-                alt="어두운 로고"
+                alt="logo enieber cunha"
               />
             </a>
           </Link>
@@ -57,24 +57,22 @@ const Header = () => {
                 objectFit={'contain'}
                 className={'cursor-pointer rounded-full'}
                 src="/static/logo-light.jpg"
-                alt="밝은 로고"
+                alt="logo enieber cunha"
               />
             </a>
           </Link>
         </div>
       </div>
       <div className="text-xs font-thin text-center text-gray-500">
-        <span className="text-gray-400">ReScript</span>로 변경 중
         <Link href="https://github.com/MiryangJung/miryang.dev" passHref>
           <a target="_blank" className="underline ml-0.5">
-            Repo
+            Baseado no repositorio de miryang.dev
           </a>
         </Link>
         <span className="mx-1">/</span>
-        <span className="text-red-500">이직에 열려있습니다.</span>
-        <Link href="https://miryang.dev/resume" passHref>
+        <Link href="https://profile-enieber.vercel.app/" passHref>
           <a target="_blank" className="underline ml-0.5 font-bold">
-            이력서
+              alterado por mim
           </a>
         </Link>
       </div>

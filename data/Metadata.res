@@ -1,31 +1,21 @@
-let repo = "https://github.com/MiryangJung/miryang.dev"
+let repo = "https://github.com/enieber/olha-oque-fiz"
 let meta = {
   "url": "https://miryang.dev",
-  "title": "Miryang | Frontend Engineer",
-  "description": "Lazy Frontend Engineer who likes to travel",
-  "twitter": "@MiryangJung",
+  "title": "Enieber | Software Engineer",
+  "description": "Functional Programing try decentralize world",
 }
 
-let author = "MiryangJung"
+let author = "Enieber"
 let home = {
-  "name": "Miryang Jung",
-  "description": "Lazy Frontend Engineer who likes to travel",
+  "name": "Enieber Cunha",
+  "description": "Functional Programing try decentralize world",
 }
 
 let social = {
-  "github": "https://github.com/MiryangJung",
-  "twitter": "https://twitter.com/miryangjung",
-  "linkedin": "https://www.linkedin.com/in/miryangjung/",
-  "stackoverflow": "https://stackoverflow.com/users/11981439/miryangjung",
+  "github": "https://github.com/enieber",
+  "linkedin": "https://www.linkedin.com/in/enieber/",
   // "facebook": "",
   // "instagram": "",
-  "rss": "https://miryang.dev/feed.xml",
+  "rss": "https://olha-oque-fiz.vercel.app/feed.xml",
 }
 
-let analytics = {
-  "google": "G-MXZZX39DZ7",
-}
-
-let ads = {
-  "google": "ca-pub-6660943261631856",
-}

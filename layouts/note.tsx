@@ -34,12 +34,6 @@ function NoteLayout({ tree, note }) {
         }}
       />
 
-      <Link href="https://miryang-dev.tistory.com" passHref>
-        <a target="_blank" className="underline my-3">
-          더 편한 메모 작성을 위해 miryang-dev.tistory로 이사했습니다.
-        </a>
-      </Link>
-
       <NoteContainer>
         <NoteAside tree={tree} />
         <NoteContent>

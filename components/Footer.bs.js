@@ -35,28 +35,6 @@ function Footer$default(Props) {
                           height: 18.0
                         })), React.createElement("a", {
                       className: "mx-1.5",
-                      href: Metadata.social.stackoverflow,
-                      rel: "noreferrer",
-                      target: "_blank"
-                    }, React.createElement($$Image, {
-                          alt: "stackoverflow",
-                          objectFit: "contain",
-                          src: "/social/stackoverflow.svg",
-                          width: 18.0,
-                          height: 18.0
-                        })), React.createElement("a", {
-                      className: "mx-1.5",
-                      href: Metadata.social.twitter,
-                      rel: "noreferrer",
-                      target: "_blank"
-                    }, React.createElement($$Image, {
-                          alt: "twitter",
-                          objectFit: "contain",
-                          src: "/social/twitter.svg",
-                          width: 18.0,
-                          height: 18.0
-                        })), React.createElement("a", {
-                      className: "mx-1.5",
                       href: Metadata.social.rss,
                       rel: "noreferrer",
                       target: "_blank"
@@ -68,10 +46,10 @@ function Footer$default(Props) {
                           height: 18.0
                         }))), React.createElement("span", {
                   className: "text-sm text-[var(--tx-sub)] mt-3"
-                }, "Copyright © 2023 " + Metadata.author + ""), React.createElement(Link, {
+                }, "Copyleft © 2023 " + Metadata.author + ""), React.createElement(Link, {
                   children: React.createElement("a", {
                         className: "text-xs text-[var(--tx-sub-dark)] no-underline mt-2.5 hover:underline"
-                      }, "miryang.dev"),
+                      }, "Enieber Cunha"),
                   href: Metadata.repo,
                   passHref: true
                 }));

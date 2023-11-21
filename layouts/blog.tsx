@@ -22,7 +22,7 @@ function BlogLayout({ post }) {
           url: `${meta.url}/blog/${post.slug}`,
           article: {
             publishedTime: new Date(post.date).toISOString(),
-            tags: [...post.tags, 'Frontend', 'Develop'],
+            tags: [...post.tags, 'Develop'],
           },
           images: [
             {

@@ -1,0 +1,57 @@
+---
+title: "Conheça Ollama e rode seu GPT localmente" 
+date: 2023-11-16T00:00:00.000Z
+description: Como rodar modelos LLM localmente usando ollama
+thumbnailUrl: /posts/thumbnail/llama.jpg
+tags: ['llm', 'pt-br', 'gpt', 'ia', 'llama']
+---
+
+![Uma ilhama em um morro sem vegetação](/posts/thumbnail/llama.jpg)
+
+Como muitos o meu primeiro contato com LLM foi atravez do ChatGPT que foi criado em 2022 e se popularizou nos meses seguintes. Como todo o trabalho de uma 
+IA Generativa é necessario alguns processos para que ela se torne usavel como o caso do ChatGPT.
+
+## Processos 
+
+Em todo o processo de construção de um IA Generativa é necessario o trabalho humano como a produção de dados, organização e desenvolvimento de ferramentas para 
+coleta e armazenamento de dados gerados por pessoas. Também é necessario que apos a coleta desses dados uma seleção de dados sejam feitos para treinamento e outra seleção seja feita durante ou apos o treinamento desses dados que no final será chamado de modelo.
+
+## Modelo
+
+O modelo gerado por um treinamento é apenas o resultado de trabalho humado que usa uma quantidade muito grande de informaçòes no processo, dessa forma pode ter inumeros problemas de vieses na coleta, seleção e filtragem de dados que os dados foram submetidos para ser gerado.
+
+## LLM
+
+Com tudo isso em mente podemos começar a discução sobre LLM que é um (Large Language Models) ou em portuges Modelos de linguagem grande, ou seja um modelo gerado com uma grande quantidade de dados e especializado em interagir com humanos atravez de textos. Como se espera em todo o processo desde a concepção até a execução de um modelo LLM o alto consumo de recursos computacionais é bem importante, o que inviabiliza a construção e até a execução de modelos atravez de computadores menos potentes. Isso erá uma verdade, porem com a evolução e altos investimentos que a popularidade do ChatGPT trouxe para essa area sugiram novos mecanismos que tentam diminuir o uso e recursos ao menos para a execução de modelos LLM como o caso do [llama](https://ai.meta.com/llama/) que foi feito pela equipe de pesquisa do Facebook(Meta) que tornou o modelo open source e com um requisito menor de recurso computacional para roda lo.
+
+## Ollama
+
+Como o modelo llama foi disponibilizado open source muitos desenvolvedores criaram formas de facilitar o uso deles por outras pessoas e com esse intuito nasceu o projeto Ollama que facilita baixar e rodar modelos LLM localmente.
+
+## Seu GPT localmente
+
+
+Para rodar seu GPT localmente é necessario ter em mente alguns requisitos que cada modelo necessita, como:
+
+7b de parametros  -> 8GB de Ram
+
+13b de parametros -> 16GB de Ram
+
+
+Todos os modelos de LLM rodam com numeros consideraveis de parametros, geralmente o minimo é 7b que é 7 bilhões de parametros.
+
+Considerando que você tenha os recursos necessarios para rodar o modelo que você deseja, é necessario, baixar o binario do Ollama pelo site: https://ollama.ai/ Escolher o modelo disponivel e rodar na linha de comando.
+
+> ollama run llama2
+
+## Usando versão web/desktop
+
+Como o projeto Ollama nasceu para facilitar o acesso aos modelos LLMs então é possoivel fazer uso do mesmo atraveés de Rest API. Dito isso você pode construir sua versão usando a api do ollama ou usar algum projeto da [construido pela comunidade](https://github.com/jmorganca/ollama#web--desktop).
+
+## Consideraçõe 
+
+- Embora hoje o requisito minimo para rodar um modelo llm seja bem menor, ainda não é acessivel para a maioria das pessoas. 
+- Os modelos apresentados no site do Ollama são construidos por diferentes pessoas por diferentes processos o que podem ter diversos problemas, como a dificuldade de responder em outras linguas diferente do inglês. 
+- Como esse tema apesar de parecer novo já existe muito trabalho que deram base para a popularização que tem hoje, permite que uma pessoa com pouco conhecimento na area como eu possa usar e escrever sobre esse tema. Caso tenha algum erro no texto sinta se livre para corrigi-lo acessando o codigo do texto no repositorio no github.
+- Apesar de muitos trabalhos relacionado a construção de modelos de IA começarem a decadas, as discuções eticas e problemas nesses modelos ainda estão começando a ganhar notoriedade, então fique atento a possiveis problemas nos modelos desde a consepção a aplicação do mesmo, não da para criar um modelo sem vies.
+

@@ -8,9 +8,9 @@ let default = () => {
     <span className={` font-light mt-2.5 break-all text-lg md:text-base`}>
       {Metadata.home["description"]->React.string}
     </span>
-    <Next.Link href="/about" passHref=true>
+    <Next.Link href="https://profile-enieber.vercel.app/" passHref=true>
       <a className={`font-semibold text-[var(--bg-a5)] text-sm mt-3`}>
-        {`Learn more`->React.string}
+        {`Sobre mim`->React.string}
       </a>
     </Next.Link>
   </section>

@@ -16,12 +16,13 @@ function Blog({ posts }) {
     <Container>
       <NextSeo
         title="Blog"
-        description="공유하고 싶거나 다시 보고 싶은 기술들을 정리합니다."
+        description="Artigos que escrevi"
         canonical={`${meta.url}/blog`}
         openGraph={{ url: `${meta.url}/blog` }}
       />
 
-      <Title title="Blog" des={`공유하고 싶거나 다시 보고 싶은 기술들을 정리합니다.`} />
+      <Title title="Blog" des={`Artigos que escrevi`}
+      />
       <Search changeHandler={e => setSearchValue(e.target.value)} />
       {filteredBlogPosts.map((post, index) => (
         <PostCards post={post} key={index} slug={post.slug} />

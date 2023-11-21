@@ -3,35 +3,24 @@
 
 var meta = {
   url: "https://miryang.dev",
-  title: "Miryang | Frontend Engineer",
-  description: "Lazy Frontend Engineer who likes to travel",
-  twitter: "@MiryangJung"
+  title: "Enieber | Software Engineer",
+  description: "Functional Programing try decentralize world"
 };
 
 var home = {
-  name: "Miryang Jung",
-  description: "Lazy Frontend Engineer who likes to travel"
+  name: "Enieber Cunha",
+  description: "Functional Programing try decentralize world"
 };
 
 var social = {
-  github: "https://github.com/MiryangJung",
-  twitter: "https://twitter.com/miryangjung",
-  linkedin: "https://www.linkedin.com/in/miryangjung/",
-  stackoverflow: "https://stackoverflow.com/users/11981439/miryangjung",
-  rss: "https://miryang.dev/feed.xml"
+  github: "https://github.com/enieber",
+  linkedin: "https://www.linkedin.com/in/enieber/",
+  rss: "https://olha-oque-fiz.vercel.app/feed.xml"
 };
 
-var analytics = {
-  google: "G-MXZZX39DZ7"
-};
+var repo = "https://github.com/enieber/olha-oque-fiz";
 
-var ads = {
-  google: "ca-pub-6660943261631856"
-};
-
-var repo = "https://github.com/MiryangJung/miryang.dev";
-
-var author = "MiryangJung";
+var author = "Enieber";
 
 export {
   repo ,
@@ -39,7 +28,5 @@ export {
   author ,
   home ,
   social ,
-  analytics ,
-  ads ,
 }
 /* No side effect */
